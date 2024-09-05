@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Recipe<span>World</span></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="recipe-list">
+        <h2>Explore Our Delicious Recipes</h2>
+        <div class="filter-section">
+            <input type="text" id="search-bar" placeholder="Search Recipes...">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+                <option value="appetizer">Appetizer</option>
+                <option value="main">Main Course</option>
+                <option value="dessert">Dessert</option>
+            </select>
+        </div>
+        <div class="recipe-container" id="recipe-container">
+            <!-- Recipe Cards will be dynamically inserted here by JavaScript -->
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Recipe Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
